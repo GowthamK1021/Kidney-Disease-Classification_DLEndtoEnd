@@ -1,11 +1,11 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from CNN_Classifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
-#Its used to convert dict to configbox And using this Box we can access dict element as d.key
+#Its used to convert dict to configbox And using this Box we can access dict element as
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
