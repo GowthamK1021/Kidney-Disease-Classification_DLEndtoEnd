@@ -44,7 +44,7 @@ from CNN_Classifier.pipeline.stage4_evaluate_withmlflow import  EvaluationPipeli
 STAGE_NAME = "Evaluation stage"
 try:
    logger.info(f"*******************")
-   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   logger.info(f">>>>>>>stage {STAGE_NAME} started <<<<<<")
    model_evalution = EvaluationPipeline()
    model_evalution.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
